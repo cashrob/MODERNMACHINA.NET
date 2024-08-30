@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Desperados - Modern Machina</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00FF00;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            min-height: 100vh;
+            background-color: #000000;
+        }
+        .sidebar, .sidebar-right {
+            width: 200px;
+            background-color: #00FF00;
+            padding: 10px;
+            border-right: 3px dashed #00FF00;
+        }
+        .sidebar img, .sidebar-right img {
+            width: 140px; /* or your preferred size */
+            height: auto;
+            margin-bottom: 10px;
+            border: 2px solid #00FF00;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            text-align: center;
+            color: #00FF00;
+        }
+        h1 {
+            text-shadow: 2px 2px #FF0000;
+        }
+        h2 {
+            color: #FF00FF;
+            text-decoration: underline;
+        }
+        .content img {
+            width: 50%;
+            margin: 10px auto;
+            display: block;
+            border: 2px solid #00FF00;
+        }
+        .content img.top-photo {
+            width: 80%;
+            margin: 0 auto;
+            border: 2px solid #00FF00;
+            position: relative;
+            top: -10px;
+        }
+        .blink {
+            animation: blink-animation 1s steps(5, start) infinite;
+            -webkit-animation: blink-animation 1s steps(5, start) infinite;
+        }
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+        @-webkit-keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+        a {
+            color: #FF00FF;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FFFF00;
+        }
+        .footer {
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        .guest-book {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #000000;
+            border: 1px solid #00FF00;
+        }
+        .guest-book h3 {
+            color: #FF00FF;
+        }
+        .guest-book form {
+            margin-bottom: 10px;
+        }
+        .guest-book input, .guest-book textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #00FF00;
+            background-color: #000000;
+            color: #00FF00;
+        }
+        .guest-book input[type="submit"] {
+            background-color: #FF00FF;
+            color: #000000;
+            cursor: pointer;
+        }
+        .guest-book input[type="submit"]:hover {
+            background-color: #FFFF00;
+        }
+        .messages {
+            margin-top: 10px;
+        }
+        .message {
+            border-top: 1px solid #00FF00;
+            padding-top: 10px;
+        }
+        .mock-message {
+            border-top: 1px solid #00FF00;
+            padding-top: 10px;
+            font-style: italic;
+        }
+        .content h2 {
+            margin-top: 20px;
+        }
+        .content p {
+            margin: 10px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-1.jpeg.png" alt="Art 1">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-2.jpg.png" alt="Art 2">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-3.jpg.png" alt="Art 3">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\Screenshot 2024-08-28 214755.png" alt="Art 4">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\AMERICAN FLAG.jpg" alt="Art 6">
+        </div>
+
+        <div class="main-content">
+            <!-- Home button -->
+            <a href="file:///C:/Users/ariea/OneDrive/Desktop/New%20folder/MODERNMACHINA.html" class="home-button">Home</a>
+            <h1>Desperados: The Outlaws of the Wasteland</h1>
+            <div class="content">
+                <!-- Photo positioned at the top -->
+                <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\desperado-1.png" alt="Desperado Top Photo" class="top-photo">
+                
+                <p><strong>Welcome to the wasteland, cowboy.</strong> No law, no order—just vast open sky and the cold, bitter truth: <em>your next sunrise is never guaranteed, and the next one you see, you’ll likely be covered in blood.</em> A desperado, a ghost on the fringes of a long gone America, living on the edge however you can. Fucking somebody over is the difference between starving and food on the table - and you’ve been starving for too goddamn long. You’re the outlaw with nothing to lose, and everything to gain - riding the edge between life and death, like it’s your last rodeo. Giddyup.</p>
+
+                <p><strong>Who are you?</strong> You’re a loner, maybe the last survivor of a gang that got screwed over, spending time drifting from one ruined town to the next. Or you’re a hustler, always two steps ahead of everyone else, and three steps ahead of your next mark. You sold your soul a long, long time ago, for a life of danger, and if you’ve got to break a few bones—or skulls!—to make it to tomorrow, that’s just another day in paradise, baby. You just gotta wonder…what the hell did you do to get to this point? At some point, somebody messed up. Bad. Leaving you to wander the wasteland, set up camp where there's money to be made, and survive - solo. And that's just it, <em>you’re not really living—you’re just surviving.</em> And when the world’s gone to shit, maybe that’s the closest thing to a win you can get.</p>
+
+                <p><strong>What drives you?</strong> Money, freedom, and the sweet, sweet thrill of staying one step ahead of death. The wasteland’s got a gold rush in opportunity for those brave—or stupid—enough to go and get it. Hijacking a supply convoy, pulling off a high-stakes con, or dumpster diving through the ruins of a city that America left behind, you’ve got a neon-glowing eye open for the next big score…and if the price is a few dead bodies along the way, well, shit, who’s keeping count?</p>
+
+                <p><strong>But don’t kid yourself, dude—</strong> to some other desperate degenerate in the same spot you are, you’re just another target - every day of your life is a fight to stay alive. The wasteland doesn’t give a damn about your past, your pain, or your dreams - it only cares about one thing: who’s still standing when the dust clears at the end of the shootout. You’ve got a cigarette, iron, and deteriorating morals. Godspeed, and good luck - you need it.</p>
+
+                <p><strong>You’re a Desperado,</strong> a lone survivor in a world that’s long forgotten how to live.</p>
+
+                <!-- Second photo -->
+                <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\desperado-2.png" alt="Desperado Photo 2" style="width: 40%; border: 2px solid #00FF00;">
+            </div>
+
+            <div class="footer">
+                <p>© 2024 Modern Machina. All Rights Reserved.</p>
+                <p>This site is best viewed in Netscape Navigator 4.0</p>
+            </div>
+        </div>
+
+        <div class="sidebar-right">
+            <div class="guest-book">
+                <h3>Guest Book</h3>
+                <form id="guest-book-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+                <div class="messages" id="messages">
+                    <!-- Permanent mock message -->
+                    <div class="message mock-message">
+                        <strong>Girl Machina:</strong>
+                        <p>Bro help I'm in the Machine</p>
+                    <!-- Permanent mock spam-->
+                       <strong>!!!HOTmoms.com!!!</strong>
+                       <p>Sexy MILFS in WARSAW want to talk!</p>
+                       <!-- Permanent Jesus-Freak fearmongering-->
+                    <strong>HolyJudgement1:</strong>
+                    <p>Eternal punishment is real! Get the truth about your soul's fate NOW!</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modern Machina: The TTRPG</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00FF00;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            min-height: 100vh;
+            background-color: #000000;
+        }
+        .sidebar, .sidebar-right {
+            width: 200px;
+            background-color: #00FF00;
+            padding: 10px;
+            border-right: 3px dashed #00FF00;
+        }
+        .sidebar img, .sidebar-right img {
+            width: 140px; /* or your preferred size */
+            height: auto;
+            margin-bottom: 10px;
+            border: 2px solid #00FF00;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            text-align: center;
+            color: #00FF00;
+        }
+        h1 {
+            text-shadow: 2px 2px #FF00FF;
+        }
+        h2 {
+            color: #FF00FF;
+            text-decoration: underline;
+        }
+        .blink {
+            animation: blink-animation 1s steps(5, start) infinite;
+            -webkit-animation: blink-animation 1s steps(5, start) infinite;
+        }
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+        @-webkit-keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+        a {
+            color: #FF00FF;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FFFF00;
+        }
+        .footer {
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        .character-classes a {
+            text-decoration: underline;
+        }
+        .guest-book {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #000000;
+            border: 1px solid #00FF00;
+        }
+        .guest-book h3 {
+            color: #FF00FF;
+        }
+        .guest-book form {
+            margin-bottom: 10px;
+        }
+        .guest-book input, .guest-book textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #00FF00;
+            background-color: #000000;
+            color: #00FF00;
+        }
+        .guest-book input[type="submit"] {
+            background-color: #FF00FF;
+            color: #000000;
+            cursor: pointer;
+        }
+        .guest-book input[type="submit"]:hover {
+            background-color: #FFFF00;
+        }
+        .messages {
+            margin-top: 10px;
+        }
+        .message {
+            border-top: 1px solid #00FF00;
+            padding-top: 10px;
+        }
+        .mock-message {
+            border-top: 1px solid #00FF00;
+            padding-top: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-1.jpeg.png" alt="Art 1">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-2.jpg.png" alt="Art 2">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-3.jpg.png" alt="Art 3">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\Screenshot 2024-08-28 214755.png" alt="Art 4">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\AMERICAN FLAG.jpg" alt="Art 6">
+        </div>
+
+        <div class="main-content">
+            <h1>M O D E R N M A C H I N A</h1>
+            <marquee behavior="alternate" direction="right" scrollamount="10">Enter the Neo Wild West of the 22nd Century!</marquee>
+
+            <div class="content">
+                <h2>About the Game</h2>
+                <p>In the 22nd century, the American dream has crumbled into a nightmare. Once, seen by some as a land of boundless promise and prosperity, the United States now stands as an empty shadow of its former self. The big cities, now living on the poison-infused life support of suffocating corporations, cling to life on the coasts, their shining and sky-high silver towers exist in stark contrast to the thousands of miles of wasteland that stretches between them. Middle America is a hell-hole deserted landscape, a neo-wild-west where survival is the only law, and the world itself seems to mock every hope of redemption.
+The facade of civilization is gone, replaced by a harsh and unforgiving reality. The wealthy elite, safe and cozy in their corporate fortresses, live in gold and glory, disconnected from, yet fully aware of, the grim existence that defines the rest of the country. The wasteland is a place of undying struggle, where every day is a battle against the elements, against everyone else, and against the crushing weight of despair.
+Here, hope is a rare commodity, and those who seek it must navigate a world where survival is only gained through fucking fighting for it. Whether you’re clawing your way through the ruins, chasing shadows in the wasteland, or forging alliances with the few souls who don’t want you dead, every step is taken with the knowledge of the danger that lies wherever it is you’re going. In this harsh world, trust is a currency more valuable than any other, and betrayal can be as swift as it is brutal.
+Modern Machina is a world where the future is grim, the stakes are high, and the fight for survival is constant. How do you make your allies? How do you find your will to persevere through the wasteland? Can you persevere at all? The road ahead is full of fear, struggle, and quite possibly death, but for those who dare to face it, the promise of redemption—however fleeting—calls.
+You’re a modern machina. Welcome to the edge of civilization. Welcome to the wasteland.</p>
+                
+                <h2>Character Classes</h2>
+                <div class="character-classes">
+                    <ul>
+                        <li><a href="file:///C:/Users/ariea/OneDrive/Desktop/New%20folder/DESPERADO.html">Desperados</a></li>
+                        <li><a href="file:///C:/Users/ariea/OneDrive/Desktop/New%20folder/CORP-RATS.html">Corp-rats</a></li>
+                        <li><a href="#">Technomads</a></li>
+                        <li><a href="#">Jesus-Freaks</a></li>
+                        <li><a href="#">Bikers</a></li>
+                    </ul>
+                </div>
+
+                <h2>Get Started</h2>
+                <p><a href="https://www.bible.com/" class="blink">Download the Rulebook!</a></p>
+            </div>
+
+            <div class="footer">
+                <p>© 2024 Modern Machina. All Rights Reserved.</p>
+                <p>This site is best viewed in Netscape Navigator 4.0</p>
+            </div>
+        </div>
+
+        <div class="sidebar-right">
+            <div class="guest-book">
+                <h3>Guest Book</h3>
+                <form id="guest-book-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+                <div class="messages" id="messages">
+                    <!-- Permanent mock message -->
+                    <div class="message mock-message">
+                        <strong>Girl Machina:</strong>
+                        <p>Bro help I'm in the Machine</p>
+                     <!-- Permanent mock spam-->
+                     <strong>!!!HOTmoms.com!!!</strong>
+                     <p>Sexy MILFS in WARSAW want to talk!</p>
+                    <!-- Permanent Jesus-Freak fearmongering-->
+                    <strong>HolyJudgement1:</strong>
+                    <p>Eternal punishment is real! Get the truth about your soul's fate NOW!</p>
+                        </div>
+                    </div>
+                    <!-- User messages will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('guest-book-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            var name = event.target.name.value;
+            var message = event.target.message.value;
+            
+            var messageDiv = document.createElement('div');
+            messageDiv.classList.add('message');
+            messageDiv.innerHTML = `<strong>${name}:</strong><p>${message}</p>`;
+            
+            document.getElementById('messages').appendChild(messageDiv);
+            
+            event.target.reset();
+        });
+    </script>
+</body>
+</html
+

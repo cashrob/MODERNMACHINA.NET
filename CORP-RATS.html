@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Corp-rats - Modern Machina</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00FF00;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            min-height: 100vh;
+            background-color: #000000;
+        }
+        .sidebar, .sidebar-right {
+            width: 200px;
+            background-color: #00FF00;
+            padding: 10px;
+            border-right: 3px dashed #00FF00;
+        }
+        .sidebar img, .sidebar-right img {
+            width: 140px; /* or your preferred size */
+            height: auto;
+            margin-bottom: 10px;
+            border: 2px solid #00FF00;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            text-align: center;
+            color: #00FF00;
+        }
+        h1 {
+            text-shadow: 2px 2px #FF0000;
+        }
+        h2 {
+            color: #FF00FF;
+            text-decoration: underline;
+        }
+        .content img {
+            width: 50%;
+            margin: 10px auto;
+            display: block;
+            border: 2px solid #00FF00;
+        }
+        .content img.top-photo {
+            width: 30%;
+            margin: 0 auto;
+            border: 2px solid #00FF00;
+            position: relative;
+            top: -10px;
+        }
+        .blink {
+            animation: blink-animation 1s steps(5, start) infinite;
+            -webkit-animation: blink-animation 1s steps(5, start) infinite;
+        }
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+        @-webkit-keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+        a {
+            color: #FF00FF;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FFFF00;
+        }
+        .footer {
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        .guest-book {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #000000;
+            border: 1px solid #00FF00;
+        }
+        .guest-book h3 {
+            color: #FF00FF;
+        }
+        .guest-book form {
+            margin-bottom: 10px;
+        }
+        .guest-book input, .guest-book textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #00FF00;
+            background-color: #000000;
+            color: #00FF00;
+        }
+        .guest-book input[type="submit"] {
+            background-color: #FF00FF;
+            color: #000000;
+            cursor: pointer;
+        }
+        .guest-book input[type="submit"]:hover {
+            background-color: #FFFF00;
+        }
+        .messages {
+            margin-top: 10px;
+        }
+        .message {
+            border-top: 1px solid #00FF00;
+            padding-top: 10px;
+        }
+        .mock-message {
+            border-top: 1px solid #00FF00;
+            padding-top: 10px;
+            font-style: italic;
+        }
+        .content h2 {
+            margin-top: 20px;
+        }
+        .content p {
+            margin: 10px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-1.jpeg.png" alt="Art 1">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-2.jpg.png" alt="Art 2">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\your-image-3.jpg.png" alt="Art 3">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\Screenshot 2024-08-28 214755.png" alt="Art 4">
+            <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\AMERICAN FLAG.jpg" alt="Art 6">
+        </div>
+
+        <div class="main-content">
+            <!-- Home button -->
+            <a href="file:///C:/Users/ariea/OneDrive/Desktop/New%20folder/MODERNMACHINA.html" class="home-button">Home</a>
+            <h1>Corp-rats: The Fat Cats of the Corporate Tower</h1>
+            <div class="content">
+                <!-- Photo positioned at the top -->
+                <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\corp-rat-1.png" alt="Corp-rat Top Photo" class="top-photo">
+
+                <p><strong>Welcome to the top, sir.</strong> Or at least, you like to think you’re at the top, perched on your high-rise throne made of stock options, insider trading, and other people’s misery. You’re the product of capitalism gone viral, the ultimate parasite, feeding off the hard work of the common folk while you sip overpriced cocktails in some executive suite. They call you a <em>"Corp-rat"</em>—and trust me, it's not a compliment.</p>
+
+                <p><strong>Who are you?</strong> Maybe you’re the sleek, soulless exec with a boardroom kill-count higher than your actual body count. Or maybe you’re a low-level grinder, clawing your way up the corporate ladder, stepping on anyone’s fingers to keep from slipping back down into the masses. Nepotism? That's just another word for “family business,” and baby, business is good.</p>
+
+                <p>You weren’t born with a silver spoon in your mouth—you were born with a platinum one. And you’ve spent every day since making sure no one forgets it. But don’t let that sharp suit fool anyone - behind the polished facade and corporate jargon lies a predator, ever-hungry for the next big score. A capitalistic vampire, desperate to drain. And if that means ruining a few lives along the way? Well, that’s just the cost of doing business.</p>
+
+                <p><strong>What drives you?</strong> Money, power, control—the holy trinity of the corporate world. The boardroom is your battlefield, and you’ve got the killer instinct to come out on top. Every deal is a game, every negotiation a chess match, and you always plan ten moves ahead. Of course, there’s always a bigger shark swimming in the corporate waters, but you’re ready to outmaneuver them—or at least stab them in the back before they stab you.</p>
+
+                <p><strong>But here’s the thing, buddy—</strong> while you’re sitting pretty in your silver tower, the world outside is burning. America’s a wasteland, the cities are corporate fiefdoms, and the little people? They’re just ants under your boot. But hey, that’s not your problem. As long as the cash keeps rolling in, who cares if the world’s gone to hell?</p>
+
+                <p><strong>You’re a Corp-rat,</strong> and in the cutthroat world of the 22nd century, that means one thing: you’ve already won.</p>
+
+                <!-- Second photo -->
+                <img src="C:\Users\ariea\OneDrive\Desktop\New folder\Media\corp-rat-2.png" alt="Corp-rat Photo 2" style="width: 40%; border: 2px solid #00FF00;">
+            </div>
+
+            <div class="footer">
+                <p>© 2024 Modern Machina. All Rights Reserved.</p>
+                <p>This site is best viewed in Netscape Navigator 4.0</p>
+            </div>
+        </div>
+
+        <div class="sidebar-right">
+            <div class="guest-book">
+                <h3>Guest Book</h3>
+                <form id="guest-book-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+                <div class="messages" id="messages">
+                    <!-- Permanent mock message -->
+                    <div class="message mock-message">
+                        <strong>Girl Machina:</strong>
+                        <p>Bro help I'm in the Machine</p>
+                        <!-- Permanent mock spam-->
+                        <strong>!!!HOTmoms.com!!!</strong>
+                        <p>Sexy MILFS in WARSAW want to talk!</p>
+                        <!-- Permanent Jesus-Freak fearmongering-->
+                        <strong>HolyJudgement1:</strong>
+                        <p>Eternal punishment is real! Get the truth about your soul's fate NOW!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
